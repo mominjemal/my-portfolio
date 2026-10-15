@@ -1,0 +1,31 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-content {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .layout-content {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .layout-content {
+        padding: 0 4rem;
+    }
+} 
