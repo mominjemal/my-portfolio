@@ -1,19 +1,46 @@
-import React from "react"
-import  './hero.css'
-import { Link } from 'react-router-dom';
-import profile_img from '../../../public/images/profile_image.jpg'
 
-const Hero = () =>{
-  return(
-<div id="hero" className="hero">
-    <img src={profile_img} alt="" />
-     <h1><span>Hi I'm Momin, </span>frontend developer based in Ethiopia.</h1>
-     <div className="hero-action">
-     <Link to='/contact' offset={50} smooth={true}> <div  className="hero-connect">connect with me</div></Link>
-      <Link to='/projects' offset={50} smooth={true}> <div  className="hero-projects">view projects</div></Link>
-     </div>
-</div>
+import React from "react";
+import "./hero.css";
+import { Link } from "react-router-dom";
+import profile_img from "../../../public/images/profile_image.jpg";
 
-  )
-}
-export default Hero
+const Hero = () => {
+  return (
+    <section id="hero" className="hero">
+      <img
+        src={profile_img}
+        alt="Momin, Full-Stack Developer"
+      />
+
+      <h1>
+        Hi, I'm Momin.
+        <br />
+        <span>Full-Stack Developer</span>
+        <br />
+        based in Ethiopia.
+      </h1>
+
+      <p className="hero-description">
+        I build modern, responsive web applications from
+        frontend to backend, combining clean user interfaces,
+        reliable APIs, and database-driven solutions.
+      </p>
+
+      <div className="hero-action">
+        <Link to="/contact">
+          <div className="hero-connect">
+            Let's Connect
+          </div>
+        </Link>
+
+        <Link to="/projects">
+          <div className="hero-projects">
+            View My Projects
+          </div>
+        </Link>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
