@@ -5,7 +5,7 @@
     gap: 3rem;
     width: 100%;
     max-width: 75rem;
-    min-height: 75vh;
+    min-height: calc(100vh - 76px);
     margin: 0 auto;
     padding: 4rem 2rem;
     box-sizing: border-box;

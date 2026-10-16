@@ -8,10 +8,12 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Contact/Contact"
 import ThemeToggle from "./components/ThemeToggle/ThemeToggle"
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Hero />} />

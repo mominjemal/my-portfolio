@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 76px 1rem 0;
     box-sizing: border-box;
 }
 
@@ -28,4 +28,4 @@
     .layout-content {
         padding: 0 4rem;
     }
-} 
+}

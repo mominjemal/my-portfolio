@@ -2,11 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 5%;
     width: 100%;
+    min-height: 76px;
     box-sizing: border-box;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: var(--background);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
 }
+
+
 
 .logo {
     font-size: 1.5rem;
@@ -67,11 +75,11 @@
     right: 1.875rem;
 }
 
-.nav-menu.active ~ .nav-mob-open {
+.nav-menu.active~.nav-mob-open {
     display: none;
 }
 
-.nav-menu.active ~ .nav-mob-close {
+.nav-menu.active~.nav-mob-close {
     display: block;
 }
 
@@ -169,5 +177,3 @@
     width: 35px;
     height: 35px;
 }
-
-    
