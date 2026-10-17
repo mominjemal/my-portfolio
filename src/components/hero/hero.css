@@ -1,3 +1,8 @@
+:root {
+    --nav-height: 88px;
+    /* match your real navbar height */
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -5,13 +10,12 @@
     gap: 3rem;
     width: 100%;
     max-width: 75rem;
-    min-height: calc(100vh - 76px);
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: calc(var(--nav-height) + 2rem) 2rem 2rem;
     box-sizing: border-box;
 }
 
-/* Left side */
 .hero-content {
     flex: 1;
     min-width: 0;
@@ -23,6 +27,7 @@
     letter-spacing: 0.15em;
     color: var(--accent);
     margin: 0 0 1.25rem !important;
+
 }
 
 .hero h1 {
