@@ -6,7 +6,7 @@ I build modern, responsive, and user-friendly web applications, working across f
 
 ## 🌐 Live Demo
 
-**Portfolio Website:** [View My Portfolio](my-portfolio-azure-three-32.vercel.app)
+**Portfolio Website:** [View My Portfolio](https://gimy-portfolio-azure-three-32.vercel.app)
 
 
 
