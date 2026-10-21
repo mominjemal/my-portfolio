@@ -15,41 +15,36 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <Link to="/" className="logo">Portfolio</Link>
-      
+
       <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
         <li>
-          <Link to="/" onClick={closeMenu} 
-                className={location.pathname === '/' ? 'active' : ''}>
+          <Link to="/" onClick={closeMenu}
+            className={location.pathname === '/' ? 'active' : ''}>
             Home
           </Link>
         </li>
         <li>
           <Link to="/about" onClick={closeMenu}
-                className={location.pathname === '/about' ? 'active' : ''}>
+            className={location.pathname === '/about' ? 'active' : ''}>
             About
           </Link>
         </li>
         <li>
           <Link to="/skills" onClick={closeMenu}
-                className={location.pathname === '/skills' ? 'active' : ''}>
+            className={location.pathname === '/skills' ? 'active' : ''}>
             Skills
           </Link>
         </li>
-        <li>
-          <Link to="/testimonials" onClick={closeMenu}
-                className={location.pathname === '/testimonials' ? 'active' : ''}>
-            Testimonials
-          </Link>
-        </li>
+
         <li>
           <Link to="/projects" onClick={closeMenu}
-                className={location.pathname === '/projects' ? 'active' : ''}>
+            className={location.pathname === '/projects' ? 'active' : ''}>
             Projects
           </Link>
         </li>
         <li>
           <Link to="/contact" onClick={closeMenu}
-                className={location.pathname === '/contact' ? 'active' : ''}>
+            className={location.pathname === '/contact' ? 'active' : ''}>
             Contact
           </Link>
         </li>
