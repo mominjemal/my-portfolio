@@ -50,8 +50,8 @@ const NavBar = () => {
         </li>
       </ul>
 
+
       <div className="nav-right">
-        <ThemeToggle />
         <button className="nav-mob-open" onClick={() => setIsOpen(true)}>
           <FaBars />
         </button>
@@ -59,6 +59,7 @@ const NavBar = () => {
           <FaTimes />
         </button>
       </div>
+
     </div>
   )
 }
