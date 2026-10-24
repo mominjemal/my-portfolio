@@ -6,7 +6,7 @@ const projects = [
     description: "A task management application.",
     stargazers_count: 0,
     html_url: "https://github.com/mominjemal",
-    homepage: "",
+    homepage: "https://task-manager-amber-nu.vercel.app",
   },
   {
     id: 2,
