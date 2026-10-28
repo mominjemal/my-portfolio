@@ -16,6 +16,14 @@ const projects = [
     html_url: "https://github.com/mominjemal",
     homepage: "https://my-portfolio-azure-three-32.vercel.app",
   },
+  {
+    id: 3,
+    name: "Central Letter Management System",
+    description: "A system for managing central letters.",
+    stargazers_count: 0,
+    html_url: "https://github.com/mominjemal/CentralLetterManagementSystem.git",
+    homepage: "https://central-letter-management-system.vercel.app",
+  },
 ];
 
 export default projects;
