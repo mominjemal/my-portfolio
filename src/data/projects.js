@@ -19,9 +19,9 @@ const projects = [
   {
     id: 3,
     name: "Central Letter Management System",
-    description: "A system for managing central letters.",
+    description: "A system for managing  letters in one organization.",
     stargazers_count: 0,
-    html_url: "https://github.com/mominjemal/CentralLetterManagementSystem.git",
+   // html_url: "https://github.com/mominjemal/CentralLetterManagementSystem.git",
     homepage: "https://central-letter-management-system.vercel.app",
   },
 ];

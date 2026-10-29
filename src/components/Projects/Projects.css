@@ -1,10 +1,15 @@
 .projects {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 2em;
     margin: 1.5em 0;
+}
+
+.projects-container {
+    width: 100%;
+    max-width: 1100px;
 }
 
 .projects-title {
@@ -62,16 +67,17 @@
     font-size: 16px;
 }
 
+
 .projects-container {
-    padding: 2rem;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
+    gap: 2em;
+    margin: 1.5em 0;
 }
 
 .project-card {
@@ -141,9 +147,11 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }
@@ -194,15 +202,15 @@ h2 {
     font-size: 24px;
 }
 
-@media (min-width: 320px){
+@media (min-width: 320px) {
     .projects {
         margin: 40px 20px;
     }
-    
+
     .projects-container {
         grid-template-columns: 1fr;
     }
-    
+
     .projects-title h1 {
         font-size: 40px;
     }
@@ -213,6 +221,7 @@ h2 {
     0% {
         background-position: -200% 0;
     }
+
     100% {
         background-position: 200% 0;
     }
@@ -227,12 +236,10 @@ h2 {
     width: 60%;
     height: 24px;
     margin-bottom: 1rem;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.05) 25%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(255, 255, 255, 0.05) 75%
-    );
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 25%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -242,12 +249,10 @@ h2 {
     width: 100%;
     height: 60px;
     margin-bottom: 1rem;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.05) 25%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(255, 255, 255, 0.05) 75%
-    );
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 25%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -263,12 +268,10 @@ h2 {
 .skeleton-like {
     width: 60px;
     height: 20px;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.05) 25%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(255, 255, 255, 0.05) 75%
-    );
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 25%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -283,12 +286,10 @@ h2 {
 .skeleton-link {
     width: 80px;
     height: 24px;
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.05) 25%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(255, 255, 255, 0.05) 75%
-    );
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0.05) 25%,
+            rgba(255, 255, 255, 0.1) 50%,
+            rgba(255, 255, 255, 0.05) 75%);
     background-size: 200% 100%;
     animation: shimmer 1.5s infinite;
     border-radius: 4px;
@@ -354,4 +355,4 @@ h2 {
     .projects-error h2 {
         font-size: 1.25rem;
     }
-} 
+}
