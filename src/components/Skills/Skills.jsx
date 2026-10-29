@@ -5,6 +5,10 @@ const Skills = () => {
     const skills = [
         { name: 'React', level: 90 },
         { name: 'JavaScript', level: 85 },
+        { name: 'Express.js', level: 80 },
+        { name: 'Node.js', level: 90 },
+        { name: 'Next.js  ', level: 90 },
+        { name: 'PostgreSQL', level: 75 },
         { name: 'C++', level: 80 },
         { name: 'HTML/CSS', level: 95 },
         { name: 'C#', level: 75 },
@@ -25,8 +29,8 @@ const Skills = () => {
                             <span className="skill-percentage">{skill.level}%</span>
                         </div>
                         <div className="progress-bar">
-                            <div 
-                                className="progress" 
+                            <div
+                                className="progress"
                                 style={{ width: `${skill.level}%` }}
                             ></div>
                         </div>

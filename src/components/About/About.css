@@ -1,4 +1,5 @@
 .about {
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +29,8 @@
 }
 
 .about-left {
-    display: none; /* Hide image on mobile */
+    display: none;
+    /* Hide image on mobile */
 }
 
 .about-right {
@@ -124,30 +126,30 @@
     }
 }
 
-.about-title img{
+.about-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
 
-.about-sections{
+.about-sections {
     display: flex;
     gap: 80px;
 }
 
-.about-right{
+.about-right {
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-.about-img{
+.about-img {
     width: 150px;
     height: 150px;
 }
 
-.about-para{
+.about-para {
     display: flex;
     flex-direction: column;
     gap: 20px;
